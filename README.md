@@ -27,3 +27,9 @@ host: x86_64-unknown-linux-gnu
 release: 1.52.0-nightly
 LLVM version: 11.0.1
 ```
+With error:
+```
+error: internal compiler error: compiler/rustc_middle/src/hir/map/mod.rs:306:18: impossible case reached
+
+thread 'rustc' panicked at 'Box<Any>', /rustc/5fa22fe6f821ac3801d05f624b123dda25fde32c/library/std/src/panic.rs:59:5
+```
